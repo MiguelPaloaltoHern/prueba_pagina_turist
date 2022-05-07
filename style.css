@@ -1,0 +1,108 @@
+
+.nav_color{
+    background-color: #a7bac9;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+}
+.texto{
+    color: #1d3557;
+    font-family: 'Antipasto Pro Extrabold';
+}
+.texto:hover{
+    background-color: #99d9f2;
+    color: #1d3557;
+}
+.na{
+    color: #1d3557;
+    font-family: 'Antipasto Pro Extrabold';
+}
+.btn_es{
+    background-color: #99d9f2;
+    color: #1d3557;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    font-family: 'Antipasto Pro Extrabold';
+}
+.btn_es:hover{
+    background-color: #93cde4;
+    color: #2e5283;
+
+}
+.tex_min{
+    font-family: 'Antipasto';
+}
+
+.na_li{
+    color: #1d3557;
+    font-family: 'Antipasto Pro Extrabold';
+}
+.bot_public{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+.bot_public:hover{
+    opacity: 0.50;
+}
+.chat_cont{
+    display: flexbox;
+    flex-direction: column;
+    background-color: #2a4359;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-bottom: 4%;
+}
+
+.img_chat{
+    margin-left: 25%;
+    border-style: solid;
+    border-color: lawngreen;
+}
+.menna{
+    background-color: #2a4359;
+}
+.encabe{
+    background-color: #2a4359;
+}
+.colo_public{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #a7bac9;
+}
+.pub_come{
+    background-color: #2a4359;
+    color: #99d9f2;
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.galery{
+    margin-bottom: 1%;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.galery:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.sss{
+    background-color: #5b89a6;
+    
+}
+.text_rut{
+    font-family: 'Antipasto';
+    border-radius: 2%;
+    padding: 2%;
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #a7bac9;
+}
+
+/*medias queries*/
+@media screen and (max-width: 768){
+.row .chat_cont{
+
+    display: flexbox;
+    flex-direction: column;
+    
+    background-color: #3d592a;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;  
+    
+}
+
+}
+
+
